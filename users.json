@@ -1,0 +1,32 @@
+{
+    "admin": {
+        "password": "admin123",
+        "role": "admin",
+        "voted": false
+    },
+    "user1": {
+        "password": "user123",
+        "role": "user",
+        "voted": false
+    },
+    "user2": {
+        "password": "user456",
+        "role": "user",
+        "voted": false
+    },
+    "user3": {
+        "password": "user789",
+        "role": "user",
+        "voted": false
+    },
+    "user4": {
+        "password": "userabc",
+        "role": "user",
+        "voted": false
+    },
+    "user5": {
+        "password": "userdef",
+        "role": "user",
+        "voted": false
+    }
+}
