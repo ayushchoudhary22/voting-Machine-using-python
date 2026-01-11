@@ -1,0 +1,147 @@
+🗳️ Voting Machine System using Python (Tkinter)
+📌 Project Overview
+
+This project is a GUI-based Voting Machine System developed using Python and Tkinter. It simulates a real-world electronic voting process with role-based authentication, allowing admins to manage elections and users to cast votes securely. All voting data is stored persistently using JSON files, ensuring data is retained between sessions.
+
+The system is designed for college elections, classroom voting, and learning purposes, focusing on simplicity, security, and usability.
+
+🎯 Objectives
+
+Implement a secure and user-friendly voting system
+
+Provide role-based access (Admin & User)
+
+Enable candidate management and vote casting
+
+Store voting data persistently
+
+Display election results transparently
+
+🛠️ Technologies Used
+
+Programming Language: Python
+
+GUI Framework: Tkinter
+
+Image Handling: Pillow (PIL)
+
+Data Storage: JSON
+
+OS Utilities: os module
+
+👥 User Roles
+🔹 Admin
+
+Login using admin credentials
+
+Add new candidates
+
+View election results
+
+Reset data for a new election
+
+🔹 User
+
+Login using user credentials
+
+Select and vote for a candidate
+
+Vote only once per session
+
+⚙️ Features
+
+Role-based login authentication
+
+Candidate addition and management
+
+Secure vote casting
+
+Persistent data storage using JSON
+
+Result display for admin
+
+New election / reset functionality
+
+GUI with images and improved font readability
+
+📂 Project Structure
+Voting-Machine/
+│
+├── users.json
+├── candidates.json
+├── university_logo.png
+├── voting.png
+├── main.py
+└── README.md
+
+▶️ How to Run the Project
+
+Install required library:
+
+pip install pillow
+
+
+Ensure the following files are present in the same directory:
+
+users.json
+
+candidates.json
+
+university_logo.png
+
+voting.png
+
+Run the program:
+
+python main.py
+
+🔐 Default Login Credentials
+
+Admin:
+
+Username: admin
+
+Password: admin123
+
+Users:
+
+user1 / user123
+
+user2 / user456
+
+user3 / user789
+
+user4 / userabc
+
+user5 / userdef
+
+📊 Output
+
+Users can successfully cast votes
+
+Admin can view vote counts for each candidate
+
+Election data is saved automatically
+
+Data can be reset for a new election
+
+🚀 Future Enhancements
+
+Prevent multiple votes using user voting status
+
+Encrypt stored passwords
+
+Database integration (MySQL / MongoDB)
+
+Web-based version using Flask or Django
+
+Result visualization using charts
+
+👨‍💻 Author
+
+Ayush Choudhary
+B.Tech CSE (Cybersecurity)
+JK Lakshmipat University, Jaipur
+📜 License
+
+This project is created for educational purposes only.
