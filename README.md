@@ -1,9 +1,9 @@
 🗳️ Voting Machine System using Python (Tkinter)
 📌 Project Overview
 
-This project is a GUI-based Voting Machine System developed using Python and Tkinter. It simulates a real-world electronic voting process with role-based authentication, allowing admins to manage elections and users to cast votes securely. All voting data is stored persistently using JSON files, ensuring data is retained between sessions.
+This project is a GUI-based Voting Machine System developed using Python and Tkinter. It simulates a real-world electronic voting process with role-based authentication, allowing admins to manage elections and users to cast votes securely. Voting data is stored persistently using JSON files, ensuring data is retained between sessions.
 
-The system is designed for college elections, classroom voting, and learning purposes, focusing on simplicity, security, and usability.
+The system is designed for college elections, classroom voting, and learning purposes, with a focus on simplicity, security, and usability.
 
 🎯 Objectives
 
@@ -75,13 +75,10 @@ Voting-Machine/
 └── README.md
 
 ▶️ How to Run the Project
-
-Install required library:
-
+1️⃣ Install Required Library
 pip install pillow
 
-
-Ensure the following files are present in the same directory:
+2️⃣ Ensure the Following Files Are Present
 
 users.json
 
@@ -91,19 +88,17 @@ university_logo.png
 
 voting.png
 
-Run the program:
-
+3️⃣ Run the Program
 python main.py
 
 🔐 Default Login Credentials
-
-Admin:
+Admin
 
 Username: admin
 
 Password: admin123
 
-Users:
+Users
 
 user1 / user123
 
@@ -142,6 +137,7 @@ Result visualization using charts
 Ayush Choudhary
 B.Tech CSE (Cybersecurity)
 JK Lakshmipat University, Jaipur
+
 📜 License
 
 This project is created for educational purposes only.
