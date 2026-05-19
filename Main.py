@@ -53,6 +53,9 @@ def add_admin_and_users():
 USERS_FILE = "users.json"
 CANDIDATES_FILE = "candidates.json"
 
+# Add admin and users to the JSON file
+add_admin_and_users()
+
 # Load previous data
 load_previous_data()
 
