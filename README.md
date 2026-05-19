@@ -65,10 +65,10 @@ New election / reset functionality
 GUI with images and improved font readability
 
 📂 Project Structure
-Voting-Machine/
+voting-Machine-using-python/
 │
-├── users.json
-├── candidates.json
+├── users.json (Auto-generated on first run)
+├── candidates.json (Auto-generated on first run)
 ├── university_logo.png
 ├── voting.png
 ├── main.py
@@ -80,13 +80,11 @@ pip install pillow
 
 2️⃣ Ensure the Following Files Are Present
 
-users.json
-
-candidates.json
-
 university_logo.png
 
 voting.png
+
+(Note: `users.json` and `candidates.json` are automatically generated on the first run, loaded with default credentials.)
 
 3️⃣ Run the Program
 python main.py
